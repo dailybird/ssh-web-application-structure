@@ -20,6 +20,7 @@
         <mysql.jdbc.version>5.1.21</mysql.jdbc.version>
         <aspectj.version>1.8.9</aspectj.version>
         <thymeleaf.version>3.0.3.RELEASE</thymeleaf.version>
+        <thymeleaf.layout.dialect>2.1.2</thymeleaf.layout.dialect>
     </properties>
     <dependencies>
         <!-- JUnit -->
@@ -92,6 +93,13 @@
             <version>${thymeleaf.version}</version>
         </dependency>
 
+        <!-- Thymeleaf layout dialect -->
+        <dependency>
+            <groupId>nz.net.ultraq.thymeleaf</groupId>
+            <artifactId>thymeleaf-layout-dialect</artifactId>
+            <version>${thymeleaf.layout.dialect}</version>
+        </dependency>
+        
     </dependencies>
     <build>
         <finalName>ecollaboration_v1</finalName>
